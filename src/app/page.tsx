@@ -114,7 +114,7 @@ export default function LandingPage() {
       subdescription="We provide architectural drawings, planning permission support, building regulations drawings, and project guidance. Our commitment includes navigating London planning regulations, offering clear and transparent pricing, taking a personal approach to each project, ensuring fast turnaround times, and delivering professional drawings and documentation."
       icon={Building2}
       imageSrc="http://img.b2bpic.net/free-photo/crop-people-near-tablet-blueprints_23-2147785604.jpg"
-      mediaAnimation="reveal-blur"
+      mediaAnimation="blur-reveal"
       imageAlt="architect working on detailed plans"
     />
   </div>
