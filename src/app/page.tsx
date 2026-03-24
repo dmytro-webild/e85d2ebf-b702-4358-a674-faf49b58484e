@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
+import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FeatureCardTwentyThree from '@/components/sections/feature/FeatureCardTwentyThree';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
@@ -168,16 +168,16 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactText
-      useInvertedBackground={true}
-      background={{
-        variant: "plain"}}
-      text="Contact Us - DIEGO GALVEZ AYUSO LIMITED, Director: Diego Gálvez Ayuso, Company number: 16847578, Registered office address: 47 Carnaby Street, London, England, W1F 9PT, Email: info@diegogalvezayuso.co.uk, Phone: +44 20 7946 0857, Business hours: Monday – Friday, 9:00 – 17:00. We look forward to hearing about your project! Please provide your Name, Phone, Email, and Project Description below and click 'Send Message'. We will contact you shortly."
-      buttons={[
-        {
-          text: "Send Message"},
-      ]}
-    />
+      <ContactCenter
+        useInvertedBackground={true}
+        background={{
+          variant: "plain"}}
+        tag="Contact Us"
+        title="Get in Touch"
+        description={`DIEGO GALVEZ AYUSO LIMITED,\nDirector: Diego Gálvez Ayuso,\nCompany number: 16847578,\nRegistered office address: 47 Carnaby Street, London, England, W1F 9PT,\nEmail: info@diegogalvezayuso.co.uk,\nPhone: +44 20 7946 0857,\nBusiness hours: Monday – Friday, 9:00 – 17:00.\n\nWe look forward to hearing about your project! Please provide your Name, Phone, Email, and Project Description below and click 'Send Message'. We will contact you shortly.`}
+        inputPlaceholder="Your Email"
+        buttonText="Send Message"
+      />
   </div>
 
   <div id="footer" data-section="footer">
