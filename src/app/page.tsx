@@ -31,25 +31,15 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Services",
-          id: "services",
-        },
+          name: "Services",          id: "services"},
         {
-          name: "Pricing",
-          id: "pricing",
-        },
+          name: "Pricing",          id: "pricing"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="DIEGO GALVEZ AYUSO LIMITED"
     />
@@ -58,47 +48,26 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="Residential Architectural Design & Planning Services in London"
       description="We help homeowners and property developers design, plan and deliver high-quality residential projects including home extensions, loft conversions and new build developments."
       buttons={[
         {
-          text: "Request a Quote",
-          href: "#contact",
-        },
+          text: "Request a Quote",          href: "#contact"},
       ]}
       carouselItems={[
         {
-          id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-shot-apartment-with-different-color-doors-daytime_181624-10553.jpg",
-          imageAlt: "Modern London house exterior architecture",
-        },
+          id: "1",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-shot-apartment-with-different-color-doors-daytime_181624-10553.jpg",          imageAlt: "Modern London house exterior architecture"},
         {
-          id: "2",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-african-american-lady-safety-helmet-standing-near-model-building_23-2148039866.jpg",
-          imageAlt: "Architect working on blueprints",
-        },
+          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/happy-african-american-lady-safety-helmet-standing-near-model-building_23-2148039866.jpg",          imageAlt: "Architect working on blueprints"},
         {
-          id: "3",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-people-watching-smartphone-office_23-2147668943.jpg",
-          imageAlt: "Interior of a modern home extension",
-        },
+          id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/young-people-watching-smartphone-office_23-2147668943.jpg",          imageAlt: "Interior of a modern home extension"},
         {
-          id: "4",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-interior-lobby-with-uncommon-furniture_1262-3576.jpg",
-          imageAlt: "Modern loft conversion interior design",
-        },
+          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/modern-interior-lobby-with-uncommon-furniture_1262-3576.jpg",          imageAlt: "Modern loft conversion interior design"},
         {
-          id: "5",
-          imageSrc: "http://img.b2bpic.net/free-vector/government-buildings-isometric-infographic-set_1284-14204.jpg",
-          imageAlt: "Architectural model of a residential building",
-        },
+          id: "5",          imageSrc: "http://img.b2bpic.net/free-vector/government-buildings-isometric-infographic-set_1284-14204.jpg",          imageAlt: "Architectural model of a residential building"},
         {
-          id: "6",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-showing-blueprint-his-female-colleagues-workplace_23-2148204012.jpg",
-          imageAlt: "Architects collaborating in a design studio",
-        },
+          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/man-showing-blueprint-his-female-colleagues-workplace_23-2148204012.jpg",          imageAlt: "Architects collaborating in a design studio"},
       ]}
       autoPlay={true}
       autoPlayInterval={4000}
@@ -126,49 +95,27 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "1",
-          title: "Home Extensions",
-          tags: [
-            "Increase living space and property value.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-senior-man-communicating-with-courier-who-is-delivering-packages-his-home_637285-2345.jpg",
-          imageAlt: "modern house extension exterior render",
-        },
+          id: "1",          title: "Home Extensions",          tags: [
+            "Increase living space and property value."],
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-senior-man-communicating-with-courier-who-is-delivering-packages-his-home_637285-2345.jpg",          imageAlt: "modern house extension exterior render"},
         {
-          id: "2",
-          title: "Loft Conversions",
-          tags: [
-            "Turn unused loft space into functional living areas.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/living-room-background-zoom-calls_23-2149684449.jpg",
-          imageAlt: "stylish loft conversion interior bedroom",
-        },
+          id: "2",          title: "Loft Conversions",          tags: [
+            "Turn unused loft space into functional living areas."],
+          imageSrc: "http://img.b2bpic.net/free-photo/living-room-background-zoom-calls_23-2149684449.jpg",          imageAlt: "stylish loft conversion interior bedroom"},
         {
-          id: "3",
-          title: "Planning Permission Drawings",
-          tags: [
-            "Improve chances of planning approval.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/blueprints-near-calculator-compasses_23-2147785565.jpg",
-          imageAlt: "architectural drawings planning application",
-        },
+          id: "3",          title: "Planning Permission Drawings",          tags: [
+            "Improve chances of planning approval."],
+          imageSrc: "http://img.b2bpic.net/free-photo/blueprints-near-calculator-compasses_23-2147785565.jpg",          imageAlt: "architectural drawings planning application"},
         {
-          id: "4",
-          title: "Building Regulations Drawings",
-          tags: [
-            "Ensure your project meets UK building regulations.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/two-colleagues-working-project_114579-2770.jpg",
-          imageAlt: "construction details drawing blueprint",
-        },
+          id: "4",          title: "Building Regulations Drawings",          tags: [
+            "Ensure your project meets UK building regulations."],
+          imageSrc: "http://img.b2bpic.net/free-photo/two-colleagues-working-project_114579-2770.jpg",          imageAlt: "construction details drawing blueprint"},
       ]}
       title="Our Architectural Services"
       description="From initial design concepts to final regulatory approvals, we offer comprehensive services to bring your vision to life."
       buttons={[
         {
-          text: "Contact Us",
-          href: "#contact",
-        },
+          text: "Contact Us",          href: "#contact"},
       ]}
     />
   </div>
@@ -180,25 +127,13 @@ export default function LandingPage() {
       tag="How It Works"
       metrics={[
         {
-          id: "1",
-          value: "01",
-          description: "Initial Consultation: Discuss your project and requirements.",
-        },
+          id: "1",          value: "01",          description: "Initial Consultation: Discuss your project and requirements."},
         {
-          id: "2",
-          value: "02",
-          description: "Site Survey & Concept Design: We prepare initial drawings and design concepts.",
-        },
+          id: "2",          value: "02",          description: "Site Survey & Concept Design: We prepare initial drawings and design concepts."},
         {
-          id: "3",
-          value: "03",
-          description: "Planning & Technical Drawings: We prepare and submit planning and building regulation drawings.",
-        },
+          id: "3",          value: "03",          description: "Planning & Technical Drawings: We prepare and submit planning and building regulation drawings."},
         {
-          id: "4",
-          value: "04",
-          description: "Project Support: We support you and your builder during construction if required.",
-        },
+          id: "4",          value: "04",          description: "Project Support: We support you and your builder during construction if required."},
       ]}
       metricsAnimation="slide-up"
     />
@@ -211,47 +146,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "basic",
-          badge: "Value",
-          price: "£495",
-          subtitle: "Initial consultation, basic layout drawings, project advice.",
-          features: [
-            "Initial consultation",
-            "Basic layout drawings",
-            "Project advice",
-          ],
+          id: "basic",          badge: "Value",          price: "£495",          subtitle: "Initial consultation, basic layout drawings, project advice.",          features: [
+            "Initial consultation",            "Basic layout drawings",            "Project advice"],
         },
         {
-          id: "standard",
-          badge: "Popular",
-          price: "£1,200",
-          subtitle: "Measured survey, planning drawings, planning application support.",
-          features: [
-            "Measured survey",
-            "Planning drawings",
-            "Planning application support",
-          ],
+          id: "standard",          badge: "Popular",          price: "£1,200",          subtitle: "Measured survey, planning drawings, planning application support.",          features: [
+            "Measured survey",            "Planning drawings",            "Planning application support"],
         },
         {
-          id: "full-service",
-          badge: "Premium",
-          price: "£2,500",
-          subtitle: "Measured survey, planning drawings, building regulations drawings, project guidance.",
-          features: [
-            "Measured survey",
-            "Planning drawings",
-            "Building regulations drawings",
-            "Project guidance",
-          ],
+          id: "full-service",          badge: "Premium",          price: "£2,500",          subtitle: "Measured survey, planning drawings, building regulations drawings, project guidance.",          features: [
+            "Measured survey",            "Planning drawings",            "Building regulations drawings",            "Project guidance"],
         },
       ]}
       title="Flexible Pricing Packages"
       description="Our transparent pricing ensures clarity and value for every project, from initial consultation to full service. Prices are examples and may vary depending on project size and location."
       buttons={[
         {
-          text: "Request a Quote",
-          href: "#contact",
-        },
+          text: "Request a Quote",          href: "#contact"},
       ]}
     />
   </div>
@@ -260,13 +171,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={true}
       background={{
-        variant: "plain",
-      }}
-      text="Contact Us\n\nDIEGO GALVEZ AYUSO LIMITED\nDirector: Diego Gálvez Ayuso\nCompany number: 16847578\nRegistered office address: 47 Carnaby Street, London, England, W1F 9PT\nEmail: info@diegogalvezayuso.co.uk\nPhone: +44 20 7946 0857\nBusiness hours: Monday – Friday, 9:00 – 17:00\n\nWe look forward to hearing about your project! Please provide your Name, Phone, Email, and Project Description below and click 'Send Message'. We will contact you shortly."
+        variant: "plain"}}
+      text="Contact Us - DIEGO GALVEZ AYUSO LIMITED, Director: Diego Gálvez Ayuso, Company number: 16847578, Registered office address: 47 Carnaby Street, London, England, W1F 9PT, Email: info@diegogalvezayuso.co.uk, Phone: +44 20 7946 0857, Business hours: Monday – Friday, 9:00 – 17:00. We look forward to hearing about your project! Please provide your Name, Phone, Email, and Project Description below and click 'Send Message'. We will contact you shortly."
       buttons={[
         {
-          text: "Send Message",
-        },
+          text: "Send Message"},
       ]}
     />
   </div>
@@ -275,50 +184,31 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Company Info",
-          items: [
+          title: "Company Info",          items: [
             {
-              label: "DIEGO GALVEZ AYUSO LIMITED",
-              href: "#",
-            },
+              label: "DIEGO GALVEZ AYUSO LIMITED",              href: "#"},
             {
-              label: "Company Number: 16847578",
-              href: "#",
-            },
+              label: "Company Number: 16847578",              href: "#"},
             {
-              label: "47 Carnaby Street, London, W1F 9PT",
-              href: "#",
-            },
+              label: "47 Carnaby Street, London, W1F 9PT",              href: "#"},
           ],
         },
         {
-          title: "Contact Us",
-          items: [
+          title: "Contact Us",          items: [
             {
-              label: "info@diegogalvezayuso.co.uk",
-              href: "mailto:info@diegogalvezayuso.co.uk",
-            },
+              label: "info@diegogalvezayuso.co.uk",              href: "mailto:info@diegogalvezayuso.co.uk"},
             {
-              label: "+44 20 7946 0857",
-              href: "tel:+442079460857",
-            },
+              label: "+44 20 7946 0857",              href: "tel:+442079460857"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms & Conditions",
-              href: "#",
-            },
+              label: "Terms & Conditions",              href: "#"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
       ]}
